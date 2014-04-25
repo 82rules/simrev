@@ -15,6 +15,8 @@ Usage
 Load the index.html file on your local browser
 Give it a source url and add devices. 
 
+To refresh your iframes, refresh the page, it autosaves your devices and locations for you
+
 
 Pull Requests welcomed
 
