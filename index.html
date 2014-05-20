@@ -183,6 +183,10 @@
 					return true; 
 				}
 
+				this.refresh = function(){
+					document.getElementById('iframe_'+this.id).src = document.getElementById('iframe_'+this.id).src
+				}
+
 				this.setDevice(this.device);
 			}
 
@@ -228,6 +232,7 @@
 				</div>
 
 				<div class="btn-group">
+				  <button class="btn btn-primary" ng-click="iframe.refresh()">Refresh</button>
 				  <button class="btn btn-warning" ng-click="remove(iframe)">Remove</button>
 				</div>
 			</div>
